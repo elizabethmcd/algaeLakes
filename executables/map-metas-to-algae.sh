@@ -10,7 +10,7 @@ mkdir mappingResults
 # programs
 tar -xvzf BBMap_38.07.tar.gz
 tar -xvzf samtools.tar.gz
-tar - xzvf ptyhon.tar.gz
+tar -xzvf python.tar.gz
 
 # python
 mkdir home
