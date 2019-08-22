@@ -1,0 +1,4 @@
+*.fna
+logs/
+errs/
+outs/
