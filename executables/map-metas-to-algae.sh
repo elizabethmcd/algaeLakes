@@ -34,7 +34,7 @@ tar -xzvf $metabase
 cd ../
 
 # Perform mapping
-bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metarun outm=$outname idtag minid=0.90 nodisk -Xmx48g
+bbmap/bbmap.sh ref=refs/$refbase in=metagenomes/$metarun outm=$outname idtag minid=0.75 nodisk -Xmx48g
 
 # Sorted BAM files
 for file in mappingResults/*.bam; do
